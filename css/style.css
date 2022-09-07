@@ -37,6 +37,10 @@ ul{
     justify-content: space-between;
 }
 
+i{
+    cursor: pointer;
+}
+
 /* HEADER */
 header{
     background-color: #ff6900;
@@ -197,5 +201,4 @@ footer ul li a{
 .socials i{
     font-size: 1.3rem;
     margin-left: 7px;
-    cursor: pointer;
 }
