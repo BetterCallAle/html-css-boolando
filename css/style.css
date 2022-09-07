@@ -80,37 +80,41 @@ header .logo{
 .col{
     width: calc(100% / 3 - 17px);
     margin-top: 3.4375em;
-    /* debug */
-    background-color: red;
-    border:1px solid black
 }
 
 .card{
     position: relative;
-    /* debug */
-    height: 500px;
-    background-color: blue;
 }
 
-/* Price */
+.card img{
+    max-width: 100%;
+}
+
+.hovered{
+    display: none;
+}
+
+/* price */
 .price{
     position:absolute;
-    bottom:50px;
+    bottom:40px;
 }
 
 .info-box{
+    font-size: .8rem;
+    font-weight: bold;
     color: white;
     text-align: center;
     padding: 5px 10px
 }
 
 .discount{
-    background-color: red;
-    margin-right: 5px;
+    background-color: #ff0000;
+    margin-right: 3px;
 }
 
 .item-info{
-    background-color: green;
+    background-color: #008000;
 }
 
 /* Heart */
@@ -124,4 +128,35 @@ header .logo{
     position: absolute;
     right: 0;
     top: 13px;
+}
+
+/* col-info */
+.col-info h2{
+    font-size: 1.1rem;
+}
+
+.col-info span{
+    font-size: .9rem;
+}
+
+.col-info .red{
+    color: red;
+    font-weight: bold;
+}
+
+.col-info span:last-child{
+    text-decoration: line-through;
+}
+
+/* hover */
+.card:hover .hovered{
+    display: block;
+}
+
+.card:hover .hovered-1{
+    display: none;
+}
+
+.card:hover .heart{
+    color:red;
 }
