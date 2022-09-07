@@ -167,5 +167,34 @@ header .logo{
 
 /* FOOTER */
 footer{
+    height: 100px;
+    color: white;
+    background-color: #1a1a1a;
+    margin-top: 3.125em;
+    padding: 1.875em 0;
+}
 
+h1{
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+footer ul li a{
+    font-size: .9rem;
+    margin-right: 15px;
+}
+
+.socials{
+    text-align: center;
+}
+
+.socials h3{
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+
+.socials i{
+    font-size: 1.3rem;
+    margin-left: 7px;
+    cursor: pointer;
 }
