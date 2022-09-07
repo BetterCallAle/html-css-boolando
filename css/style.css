@@ -16,6 +16,10 @@ html{
     margin: 0 auto;
 }
 
+img{
+    max-width: 100%;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -71,8 +75,6 @@ header .logo{
 
 .logo img{
     width: 15%;
-    max-width: 100%;
-    max-width: 100%;
     position:relative;
     vertical-align: middle;
 }
@@ -90,10 +92,6 @@ header .logo{
 
 .card{
     position: relative;
-}
-
-.card img{
-    max-width: 100%;
 }
 
 .hovered{
@@ -150,7 +148,7 @@ header .logo{
     font-weight: bold;
 }
 
-.col-info span:last-child{
+.col-info .old-price{
     text-decoration: line-through;
 }
 
@@ -165,4 +163,9 @@ header .logo{
 
 .card:hover .heart{
     color:red;
+}
+
+/* FOOTER */
+footer{
+
 }
