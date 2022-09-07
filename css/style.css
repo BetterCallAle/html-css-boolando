@@ -67,6 +67,61 @@ header .logo{
 .logo img{
     width: 20%;
     max-width: 100%;
+    max-width: 100%;
     position:relative;
     vertical-align: middle;
+}
+
+/* MAIN */
+.row{
+    flex-wrap: wrap;
+}
+
+.col{
+    width: calc(100% / 3 - 17px);
+    margin-top: 3.4375em;
+    /* debug */
+    background-color: red;
+    border:1px solid black
+}
+
+.card{
+    position: relative;
+    /* debug */
+    height: 500px;
+    background-color: blue;
+}
+
+/* Price */
+.price{
+    position:absolute;
+    bottom:50px;
+}
+
+.info-box{
+    color: white;
+    text-align: center;
+    padding: 5px 10px
+}
+
+.discount{
+    background-color: red;
+    margin-right: 5px;
+}
+
+.item-info{
+    background-color: green;
+}
+
+/* Heart */
+.heart{
+    font-size: 2.3rem;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 13px;
 }
