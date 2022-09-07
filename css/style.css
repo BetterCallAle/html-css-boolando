@@ -154,7 +154,7 @@ header .logo{
 
 /* hover */
 .card:hover .hovered{
-    display: block;
+    display: inline-block;
 }
 
 .card:hover .hovered-1{
