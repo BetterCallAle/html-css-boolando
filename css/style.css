@@ -6,10 +6,19 @@
 }
 
 /* COMMON */
+html{
+    font-family: sans-serif;
+}
+
 .container{
-    width: 70%;
-    max-width: 1200px;
+    width: 75%;
+    max-width: 1500px;
     margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 ul{
@@ -26,32 +35,38 @@ ul{
 
 /* HEADER */
 header{
-    min-height: 90px;
     background-color: #ff6900;
-}
-
-header nav{
-    line-height: 90px;
+    height: 70px;
+    line-height: 70px;
 }
 
 header ul, .nav-tool{
-    width: 15%;    
-    /* debug */
-    background-color: red;
+    width: 20%;    
+}
+
+header ul li{
+    color: white;
+    font-weight: bold;
+    margin-right: 13px;
 }
 
 header .logo{
-    width: 70%;
+    width: 60%;
     text-align: center;
-    /* debug */
-    background-color: blue;
 }
 
 .nav-tool{
+    color: white;
     text-align: right;
 }
 
-/* debug */
-.nav-tool span{
-    margin-right: 10px;
+.nav-tool i{
+    margin-left: 8px;
+}
+
+.logo img{
+    width: 20%;
+    max-width: 100%;
+    position:relative;
+    vertical-align: middle;
 }
