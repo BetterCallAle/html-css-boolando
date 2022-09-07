@@ -47,6 +47,7 @@ header{
     top: 0;
     left: 0;
     z-index: 100;
+    box-shadow: 0px 0px 5px 0px;
 }
 
 header ul, .nav-tool{
